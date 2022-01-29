@@ -148,7 +148,7 @@ export default function Homepage({ user, error }) {
 };
 
 Homepage.getInitialProps = async () => {
-    Let user = {
+     let user = {
         username: `2Lost4Discоrd`,
         nickname: `2Lost4Discоrd`,
         avatar: `https://cdn.discordapp.com/avatars/590423866434650113/e4ad8f5b91253285ab8e592f7dcad965.png?size=2048`,
