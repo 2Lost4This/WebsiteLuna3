@@ -1,0 +1,236 @@
+.align {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    animation: fadein 2000ms;
+    overflow-x: hidden;
+}
+
+@keyframes fadein {
+    from {
+        margin-top: 2rem;
+        opacity: 0;
+    }
+
+    to {
+        margin-top: 0rem;
+        opacity: 1;
+    }
+}
+
+.container {
+    overflow-x: hidden !important;
+    margin-top: 13rem;
+    margin-bottom: 2rem;
+    background-color: rgb(30, 26, 34);
+    width: 49.4rem;
+    box-shadow: rgb(27, 24, 31, 0.6) 0px 4px 12px;
+}
+
+.banner {
+    width: 790px;
+    height: 316px;
+    border-radius: 0.2rem;
+    position: absolute;
+    z-index: 1;
+}
+
+.on_banner {
+    position: absolute;
+    z-index: 2;
+    width: 790px;
+    height: 316px;
+}
+
+@media screen and (max-width: 840px) {
+    .container {
+        width: 90vw;
+    }
+
+    .banner {
+        width: 90vw;
+    }
+
+    .on_banner {
+        width: 90vw;
+    }
+}
+
+.me {
+    position: relative;
+    z-index: 3;
+    margin-top: 5rem;
+    display: flex;
+}
+
+.profilepicture {
+    height: 8.65rem;
+    border-radius: 0.8rem;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 8px 24px;
+    padding: 0.3rem;
+    position: absolute;
+    left: 1rem;
+}
+
+.badges {
+    display: flex;
+    margin: auto;
+    max-width: 80vw;
+    margin-left: 0.5rem;
+}
+
+.badge {
+    background-color: rgb(60, 53, 69);
+    border-radius: .2rem;
+    margin: 0.2rem 0.9rem 0.2rem 0;
+    padding: 0.3rem 0.4rem 0.3rem 0.4rem;
+    display: flex;
+    font-size: 1.2rem;
+    max-height: 1.9rem;
+    transition-duration: 500ms;
+    box-shadow: -1.5px 1.5px rgb(209, 56, 83),
+        -3px 3px rgb(209, 90, 151),
+        -4.5px 4.5px rgb(108, 67, 212),
+        -6px 6px rgb(55, 142, 212);
+    position: relative;
+    bottom: 0rem
+}
+
+.badge:hover {
+    transform: scale(1.03);
+    box-shadow: -2px 2px rgb(209, 56, 83),
+        -4px 4px rgb(209, 90, 151),
+        -6px 6px rgb(108, 67, 212),
+        -8px 8px rgb(55, 142, 212);
+    bottom: 0.1rem
+}
+
+.badge>svg {
+    color: rgb(123, 148, 228);
+    transition-duration: 500ms;
+}
+
+.badge:hover>svg {
+    color: rgb(61, 116, 236)
+}
+
+.content {
+    margin: 2rem 1rem 1rem 1rem;
+}
+
+@media screen and (max-width: 700px) {
+    .container {
+        margin-top: 8rem;
+    }
+
+    .banner {
+        height: 11rem;
+    }
+
+    .on_banner {
+        height: 11rem;
+    }
+
+    .me {
+        margin-top: 1rem;
+    }
+}
+
+.readme {
+    position: relative;
+    user-select: text;
+    background-color: rgb(36, 32, 41, 0.4);
+    padding: 0.8rem 0.8rem 0.8rem 0.4rem;
+    border-radius: 0.2rem;
+    font-size: 1.1rem;
+    font-family: 'Rubik', sans-serif;
+    margin-bottom: 1rem;
+}
+
+.section {
+    margin-top: 1.6rem;
+}
+
+.icon {
+    position: absolute;
+    height: 5rem;
+    right: -0.4rem;
+    top: -0.4rem;
+    border-radius: 0.4rem;
+    background-color: #0f0d10;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.error {
+    z-index: 1000;
+    font-size: 1.2rem;
+    color: rgb(255, 62, 94);
+    background-color: rgba(72, 36, 51, 0.8);
+    border-radius: 0.2rem;
+    position: fixed;
+    right: 1rem;
+    bottom: 3rem;
+    padding: 0.8rem 1.6rem 0.8rem 1.6rem;
+    user-select: text;
+}
+
+@media screen and (max-width: 540px) {
+    .container {
+        margin-top: 5rem;
+        width: 100vw;
+        box-shadow: none;
+        margin-bottom: 0;
+    }
+
+    .banner {
+        width: 100vw;
+    }
+
+    .on_banner {
+        width: 100vw;
+    }
+
+    .content {
+        margin-top: 7.6rem;
+    }
+
+    .name {
+        position: relative;
+        top: 3rem;
+    }
+
+    .badges {
+        position: absolute;
+        top: 5.7rem;
+        right: -2.6rem
+    }
+
+    .icon {
+        height: 2.9rem;
+        border-radius: 0.3rem;
+        right: -0.2rem;
+        top: -0.2rem;
+    }
+
+    .error {
+        right: 0rem;
+        top: 0rem;
+        bottom: unset;
+        background-color: rgb(99, 39, 62);
+    }
+}
+
+.fadeout {
+    animation: fadeout 1000ms;
+}
+
+@keyframes fadeout {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0;
+    }
+}
