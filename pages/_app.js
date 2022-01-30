@@ -17,7 +17,7 @@ export default function render({ Component, pageProps }) {
                 <meta httpEquiv='Content-Type' content='text/html; charset=utf-8' />
 
                 <meta property='title' content='2Lost4Discоrd' />
-                <meta property='description' content="I am 2Lost4Discord or for short, Losti I like skateboarding and mountain biking. I also like to meet friends and spend time on Discord. I also program a little bit in my free time Learn more about my story and my projects" />
+                <meta property='description' content="I am 2Lost4Discord or for short, Losti" />
 
                 <meta name="twitter:title" content="2Lost4Discоrd" />
                 <meta name="twitter:description" content="I am 2Lost4Discord or for short, Losti I like skateboarding and mountain biking. I also like to meet friends and spend time on Discord. I also program a little bit in my free time Learn more about my story and my projects" />
