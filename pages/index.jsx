@@ -71,10 +71,10 @@ export default function Homepage({ user, error }) {
                         <div className={style.readme}>
                             <strong style={{ fontSize: 27 }}>👋 About me</strong> <br />
                             <div style={{ marginTop: 8, marginLeft: 12 }}>
-                            I am <strong>2Lost4Discord</strong> or for short, <strong>Losti</strong>
+                            I am <strong>2Lost4Discord</strong> or for short, <strong>Losti</strong>.<br />
                             I like skateboarding and mountain biking. 
-                            I also like to meet <strong>friends</strong> and spend <strong>time on Discord</strong>. 
-                            I also <strong>program</strong> a little bit in my free time.
+                            and also like to meet <strong>friends</strong> and spend <strong>time on Discord</strong>. <br />
+                            I also <strong>program</strong> a little bit in my free time. 
                                 Learn more about my <strong>story and my projects</strong> <button className='link' style={{ fontSize: '1.1rem' }} onClick={() => window.open('https://discord.gg/4Q87pfTWqC')}>in my server</button> 
                             </div>
                             <br />
