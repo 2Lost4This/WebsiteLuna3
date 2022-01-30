@@ -7,19 +7,19 @@ import { HiOutlineNewspaper, HiOutlineLink, HiX, HiOutlineExclamation, HiOutline
 
 const cards = [{
     name: 'MY Server',
-    icon: 'https://cdn.discordapp.com/icons/732576939520426044/820e7b48c2036a7c3ba32784d430f1a0.webp?size=160',
+    icon: 'https://cdn.discordapp.com/icons/732576939520426044/820e7b48c2036a7c3ba32784d430f1a0.webp?size=2048',
     description: 'My own Server :D.',
     url: 'https://discord.gg/4Q87pfTWqC',
     position: `Owner`
 }, {
     name: 'Discord Networking',
-    icon: 'https://cdn.discordapp.com/icons/856270069612281876/fddb971d0e1541577e46a51a7a0e0178.webp?size=160',
+    icon: 'https://cdn.discordapp.com/icons/856270069612281876/fddb971d0e1541577e46a51a7a0e0178.webp?size=2048',
     description: 'Server for moderators, developers, artists to help each other and exchange information',
     url: 'https://discord.gg/vWcEAX5G4B',
     position: `Moderator`
 }, {
     name: 'Braxic/ Wannabe',
-    icon: 'https://cdn.discordapp.com/icons/443905850634010625/a_a0aefb5be3659345ea422315dd570d1b.webp?size=160',
+    icon: 'https://cdn.discordapp.com/icons/443905850634010625/a_a0aefb5be3659345ea422315dd570d1b.webp?size=2048',
     description: 'Community Server from the 2 Youtuber called "Braxic" and "WannaBe"',
     url: 'https://discord.gg/bxwb',
     position: `Moderator`
@@ -151,9 +151,9 @@ Homepage.getInitialProps = async () => {
     user = {
         username: `2Lost4Discоrd`,
         nickname: `2Lost4Discоrd`,
-        avatar: `https://cdn.discordapp.com/avatars/590423866434650113/e4ad8f5b91253285ab8e592f7dcad965.png?size=2048`,
-        nickavatar: `https://cdn.discordapp.com/avatars/590423866434650113/e4ad8f5b91253285ab8e592f7dcad965.png?size=2048`,
-        banner: `https://cdn.discordapp.com/banners/590423866434650113/31decb0492f3b4b5e93fbd98ac1f92c1.png?size=600`,
+        avatar: `https://cdn.waya.one/r/e4ad8f5b91253285ab8e592f7dcad965.png`,
+        nickavatar: `https://cdn.waya.one/r/e4ad8f5b91253285ab8e592f7dcad965.png`,
+        banner: `https://cdn.waya.one/r/31decb0492f3b4b5e93fbd98ac1f92c1.png`,
         status: {
             state: {
                 text: `Unknown`,
