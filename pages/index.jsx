@@ -72,14 +72,14 @@ export default function Homepage({ user, error }) {
                                 Learn more about my story and my projects <button className='link' style={{ fontSize: '1.1rem' }} onClick={() => window.open('https://discord.gg/4Q87pfTWqC')}>in my server</button> 
                             </div>
                             <br />
-                            <strong style={{ fontSize: 27 }}>🪄 Languages & Frameworks</strong><br />
+                            <strong style={{ fontSize: 27 }}>🪄 Things i like</strong><br />
                             <div style={{ marginTop: 8, marginLeft: 12 }}>
-                                •&nbsp; JavaScript<br />
-                                •&nbsp; Node.JS<br />
-                                •&nbsp; MongoDB<br />
-                                •&nbsp; HTML & CSS<br />
-                                •&nbsp; React, Next.JS<br />
-                                •&nbsp; Express
+                                •&nbsp; Skateboard<br />
+                                •&nbsp; Driving my BMX<br />
+                                •&nbsp; Meeting Friends<br />
+                                •&nbsp; Moderating<br />
+                                •&nbsp; Developing<br />
+                                •&nbsp; sleeping :D
                             </div>
                         </div>
                         <div className={user.activities.length > 0 ? style.section : ''}>
