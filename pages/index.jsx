@@ -68,7 +68,7 @@ export default function Homepage({ user, error }) {
                             I am 2Lost4Discord or for short, Losti
                             I like skateboarding and mountain biking. 
                             I also like to meet friends and spend time on Discord. 
-                            I also program a little bit in my free time
+                            I also program a little bit in my free time.
                                 Learn more about my story and my projects <button className='link' style={{ fontSize: '1.1rem' }} onClick={() => window.open('https://discord.gg/4Q87pfTWqC')}>in my server</button> 
                             </div>
                             <br />
