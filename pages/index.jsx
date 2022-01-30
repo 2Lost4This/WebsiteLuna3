@@ -56,8 +56,8 @@ export default function Homepage({ user, error }) {
                                 : <></>
                             }
                             <div className={style.badges} style={(user?.status?.emote || user?.status?.text) ? { marginTop: 8 } : { marginTop: width > 540 ? 14 : -14 }}>
-                                <button className={style.badge} onClick={() => window.open('https://waya.one/go/blog_be499f28-b1ac-48da-b0fa-13a21c12d173')}> <BiWindowAlt style={{ height: 22, width: 22, marginRight: 4 }} /> UI&nbsp;Designer </button>
-                                <button className={style.badge} onClick={() => window.open('https://waya.one/go/github')}> <BiCodeAlt style={{ height: 22, width: 22, marginRight: 4 }} /> Developer </button>
+                                <button className={style.badge} onClick={() => window.open('https://discord.gg/4Q87pfTWqC')}> <BiWindowAlt style={{ height: 22, width: 22, marginRight: 4 }} /> Discord Server </button>
+                                <button className={style.badge} onClick={() => window.open('https://github.com/2Lost4This')}> <BiCodeAlt style={{ height: 22, width: 22, marginRight: 4 }} /> GitHub </button>
                             </div>
                         </div>
                     </div>
