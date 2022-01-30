@@ -23,6 +23,12 @@ const cards = [{
     description: 'Community Server from the 2 Youtuber called "Braxic" and "WannaBe"',
     url: 'https://discord.gg/bxwb',
     position: `Moderator`
+},  {
+    name: 'GitHub Profile',
+    icon: 'https://avatars.githubusercontent.com/u/91763324?size=2048',
+    description: 'My GitHub Profile, check it out for more',
+    url: 'https://github.com/2Lost4This',
+    position: `Manager`
 }];
 
 export default function Homepage({ user, error }) {
