@@ -156,10 +156,10 @@ export default function Homepage({ user, error }) {
 Homepage.getInitialProps = async () => {
      let user = {
         username: `2Lost4Discоrd`,
-        nickname: `2Lost4Discоrd`,
+        nickname: `Losti`,
         avatar: `https://cdn.waya.one/r/e4ad8f5b91253285ab8e592f7dcad965.png`,
         nickavatar: `https://cdn.waya.one/r/e4ad8f5b91253285ab8e592f7dcad965.png`,
-        banner: `https://cdn.discordapp.com/banners/590423866434650113/a_cf1861cc663328b27b896078d564020e.gif`,
+        banner: `https://cdn.discordapp.com/attachments/930541461353668668/937516068233150524/unknown.png`,
         status: {
             state: {
                 text: `Unknown`,
