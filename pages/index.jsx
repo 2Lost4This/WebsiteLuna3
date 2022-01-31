@@ -165,7 +165,7 @@ Homepage.getInitialProps = async () => {
                 text: `Unknown`,
                 color: `#0000FF`
             },
-            emote: null,
+            emote: `https://cdn.discordapp.com/emojis/905184118311104592.png`,
             text: `"Whoever is happy will make others happy too." `,
         },
         activities: [],
