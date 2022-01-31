@@ -18,7 +18,7 @@ const cards = [{
     url: 'https://discord.gg/vWcEAX5G4B',
     position: `Moderator`
 }, {
-    name: 'Braxic/ Wannabe https://cdn.discordapp.com/emojis/892887725894696970.webp?size=160&quality=lossless',
+    name: 'Braxic/ Wannabe',
     icon: 'https://cdn.discordapp.com/icons/443905850634010625/a_a0aefb5be3659345ea422315dd570d1b.webp?size=2048',
     description: 'Community Server from the 2 Youtuber called "Braxic" and "WannaBe"',
     url: 'https://discord.gg/bxwb',
