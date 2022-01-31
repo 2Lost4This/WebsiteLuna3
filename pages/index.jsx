@@ -166,7 +166,7 @@ Homepage.getInitialProps = async () => {
                 color: `#747F8D`
             },
             emote: null,
-            text: Hello world,
+            text: `Hello world`,
         },
         activities: [],
         accentColor: `b6334c`
