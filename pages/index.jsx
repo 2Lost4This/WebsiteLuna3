@@ -163,7 +163,7 @@ Homepage.getInitialProps = async () => {
         status: {
             state: {
                 text: `Unknown`,
-                color: `#747F8D`
+                color: `#0000FF`
             },
             emote: null,
             text: `"Whoever is happy will make others happy too." `,
