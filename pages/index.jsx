@@ -159,14 +159,14 @@ Homepage.getInitialProps = async () => {
         nickname: `2Lost4Discоrd`,
         avatar: `https://cdn.waya.one/r/e4ad8f5b91253285ab8e592f7dcad965.png`,
         nickavatar: `https://cdn.waya.one/r/e4ad8f5b91253285ab8e592f7dcad965.png`,
-        banner: `https://cdn.discordapp.com/banners/590423866434650113/a_0dc3d8feb6679ec98846b630b09ed912.gif`,
+        banner: `https://cdn.discordapp.com/banners/590423866434650113/a_cf1861cc663328b27b896078d564020e.gif`,
         status: {
             state: {
                 text: `Unknown`,
                 color: `#747F8D`
             },
             emote: null,
-            text: `Hello world`,
+            text: `"Whoever is happy will make others happy too." `,
         },
         activities: [],
         accentColor: `b6334c`
