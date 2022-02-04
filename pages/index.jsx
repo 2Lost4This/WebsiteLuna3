@@ -154,23 +154,28 @@ export default function Homepage({ user, error }) {
 };
 
 Homepage.getInitialProps = async () => {
-     let user = {
-        username: `2Lost4Discоrd`,
-        nickname: `2Lost4Discord`,
-        avatar: `https://cdn.waya.one/r/e4ad8f5b91253285ab8e592f7dcad965.png`,
-        nickavatar: `https://cdn.waya.one/r/e4ad8f5b91253285ab8e592f7dcad965.png`,
-        banner: `https://cdn.discordapp.com/attachments/930541461353668668/937516068233150524/unknown.png`,
-        status: {
-            state: {
-                text: `Unknown`,
-                color: `#0000FF`
-            },
-            emote: `https://cdn.discordapp.com/emojis/905184118311104592.png`,
-            text: `"Whoever is happy will make others happy too." `,
-        },
-        activities: [],
-        accentColor: `b6334c`
-    };
+    let losti = await fetch('https://api.losti.xyz/').then(res => res.json()).catch(() => { return; });
     let error = false;
-    return { user: user, error: error };
-  };
+    if (!losti?.content?.username) {
+        losti.content = {
+            username: `2Lost4Discоrd`,
+            nickname: `Losti`,
+            avatar: `https://cdn.waya.one/r/e4ad8f5b91253285ab8e592f7dcad965.png`,
+            nickavatar: `https://cdn.waya.one/r/e4ad8f5b91253285ab8e592f7dcad965.png`,
+            banner: `https://cdn.discordapp.com/attachments/930541461353668668/937516068233150524/unknown.png`,
+            status: {
+                state: {
+                    text: `Unknown`,
+                    color: `#747F8D`
+                },
+                emote: null,
+                text: null
+            },
+            activities: [],
+            accentColor: `b6334c`
+        };
+        error = true;
+    };
+
+    return { user: losti?.content, error: error };
+};
