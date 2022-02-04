@@ -24,11 +24,11 @@ const cards = [{
     url: 'https://discord.gg/bxwb',
     position: `Moderator`
 },  {
-    name: 'GitHub Profile',
-    icon: 'https://avatars.githubusercontent.com/u/91763324?size=2048',
-    description: 'My GitHub Profile, check it out for more',
-    url: 'https://github.com/2Lost4This',
-    position: `Manager`
+    name: 'Chill Bot Support',
+    icon: 'https://cdn.discordapp.com/icons/917335141838385163/9555ca13719a54fab199960828773dc9.webp?size=2048',
+    description: 'Chill is a discord bot that allows you to watch youtube videos in a voice channel via the Discord Watch Together feature, with your friends!',
+    url:'https://discord.gg/dkQ6RS67nw',
+    position: `Moderator`
 }];
 
 export default function Homepage({ user, error }) {
