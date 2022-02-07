@@ -61,10 +61,10 @@ export default function Homepage({ user, error }) {
                                 </div>
                                 : <></>
                             }
-                            <div className={style.badges} style={(user?.status?.emote || user?.status?.text) ? { marginTop: 8 } : { marginTop: width > 540 ? 14 : -14 }}>
-                                <button className={style.badge} onClick={() => window.open('https://discord.gg/4Q87pfTWqC')}> <BiWindowAlt style={{ height: 22, width: 22, marginRight: 4 }} /> Discord Server </button>
-                                <button className={style.badge} onClick={() => window.open('https://github.com/2Lost4This')}> <BiCodeAlt style={{ height: 22, width: 22, marginRight: 4 }} /> GitHub </button>
-                            </div>
+                        </div>
+                        <div className={style.badges} style={(user?.status?.emote || user?.status?.text) ? { marginTop: 8 } : { marginTop: width > 540 ? 14 : -14 }}>
+                            <button className={style.badge} onClick={() => window.open('https://discord.gg/4Q87pfTWqC')}> <BiWindowAlt style={{ height: 22, width: 22, marginRight: 4 }} /> Discord Server </button>
+                            <button className={style.badge} onClick={() => window.open('https://github.com/2Lost4This')}> <BiCodeAlt style={{ height: 22, width: 22, marginRight: 4 }} /> GitHub </button>
                         </div>
                     </div>
                     <div className={style.content}>
@@ -91,7 +91,7 @@ export default function Homepage({ user, error }) {
                         <div className={user.activities.length > 0 ? style.section : ''}>
                             {user?.activities.map((activity) => (
                                 <div className={style.readme} style={{ paddingLeft: 14 }} key={activity.applicationId}>
-                                    <strong style={{ fontSize: 24, color: '#ddd9e6' }}>{activity.name}</strong><text style={{ color: 'rgb(99, 90, 112)' }}> ⌋ {activity.name === `YouTube` ? 'Watching' : 'Playing'}</text>
+                                    <strong style={{ fontSize: 24, color: '#ddd9e6' }}>{activity.name}</strong><text style={{ color: 'rgb(99, 90, 112)' }}> ⌋ {activity.name.toLowerCase().includes(`music`) ? 'Listening' : (activity.name.toLowerCase().includes(`youtube`) ? 'Watching' : (activity.name.toLowerCase().includes(`code`) ? 'Developing' : (activity.name.toLowerCase().includes(`github`) ? 'Browsing' : 'Playing')))}</text>
                                     <div style={{ display: 'flex' }}>
                                         <div style={{ position: 'relative', marginTop: 6 }}>
                                             {activity.assets.large.image ?

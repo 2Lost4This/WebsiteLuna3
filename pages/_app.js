@@ -11,7 +11,7 @@ export default function render({ Component, pageProps }) {
     return (
         <>
             <Head>
-                <script async src="https://arc.io/widget.min.js#sqvWfDKJ"></script>
+                <script async src="https://arc.io/widget.min.js#gqtowFo9"></script>
                 <meta charSet='utf-8' />
                 <meta name='viewport' content='width=device-width, initial-scale=1.0' />
                 <meta httpEquiv='Content-Type' content='text/html; charset=utf-8' />
@@ -28,7 +28,7 @@ export default function render({ Component, pageProps }) {
                 <meta property='og:type' content='website' />
                 <meta property='og:image' content='https://cdn.waya.one/r/e4ad8f5b91253285ab8e592f7dcad965.png' />
 
-                <meta name='theme-color' content='#f19bec' />
+                <meta name='theme-color' content='#2ecc71' />
                 <title>2Lost4Discоrd</title>
                 <link rel='shortcut icon' type='image/x-icon' href='https://cdn.waya.one/r/e4ad8f5b91253285ab8e592f7dcad965.png' />
             </Head>
