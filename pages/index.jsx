@@ -81,11 +81,10 @@ export default function Homepage({ user, error }) {
                             <strong style={{ fontSize: 27 }}>🪄 Things i like</strong><br />
                             <div style={{ marginTop: 8, marginLeft: 12 }}>
                                 •&nbsp; Skateboard<br />
-                                •&nbsp; Driving my BMX<br />
+                                •&nbsp; Driving my MTB<br />
                                 •&nbsp; Meeting Friends<br />
                                 •&nbsp; Moderating<br />
-                                •&nbsp; Developing<br />
-                                •&nbsp; sleeping :D
+                                •&nbsp; Developing
                             </div>
                         </div>
                         <div className={user.activities.length > 0 ? style.section : ''}>
