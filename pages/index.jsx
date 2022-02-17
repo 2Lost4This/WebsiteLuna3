@@ -154,10 +154,15 @@ export default function Homepage({ user, error }) {
 };
 
 Homepage.getInitialProps = async () => {
-    let losti = await fetch('https://api.losti.xyz/').then(res => res.json()).catch(() => { return; });
+    
+    let user = {};
     let error = false;
-    if (!losti?.content?.username) {
-        losti.content = {
+    if (config.api.url && config.api.path) try {
+        user = await fetch(`https://api.losti.xyz/`).then(res => res.json()).catch(() => { return; });
+    } catch (e) { error = e }
+    if (user?.status !== 200 || !user?.content?.id) {
+        error = true;
+        user = { content: {
             username: `2Lost4Discоrd`,
             nickname: `Losti`,
             avatar: `https://cdn.waya.one/r/e4ad8f5b91253285ab8e592f7dcad965.png`,
@@ -173,9 +178,8 @@ Homepage.getInitialProps = async () => {
             },
             activities: [],
             accentColor: `b6334c`
-        };
-        error = true;
+        }};
     };
 
-    return { user: losti?.content, error: error };
+    return { user: user?.content, error: error };
 };
