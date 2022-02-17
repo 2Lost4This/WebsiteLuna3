@@ -156,7 +156,7 @@ Homepage.getInitialProps = async () => {
     
     let user = {};
     let error = false;
-    if (config.api.url && config.api.path) try {
+    try {
         user = await fetch(`https://api.losti.xyz/`).then(res => res.json()).catch(() => { return; });
     } catch (e) { error = e }
     if (user?.status !== 200 || !user?.content?.id) {
