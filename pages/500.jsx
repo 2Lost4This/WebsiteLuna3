@@ -10,7 +10,7 @@ export default class Error500 extends React.Component {
                 </Head>
                 <div className={style.align}>
                     <div className={style.container}>
-                        <strong style={{ fontSize: 32, color: '#ddd9e6' }}>500</strong><text style={{ color: 'rgb(65, 59, 74)', fontSize: 24 }}> ⌋ Ohh this is awkward, looks like we have an Internal server error</text> <br />
+                        <img src='https://media.discordapp.net/attachments/883817635081506886/943903972241055854/500.jpeg' style={{ width: '100%' }} />
                     </div>
                 </div>
             </>
