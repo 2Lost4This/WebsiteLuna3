@@ -12,7 +12,10 @@ export default class Error404 extends React.Component {
                 </Head>
                 <div className={style.align}>
                     <div className={style.container}>
-                        <strong style={{ fontSize: 32, color: '#ddd9e6' }}>404</strong><text style={{ color: 'rgb(65, 59, 74)', fontSize: 24 }}> ⌋ Page not found</text> <br />
+                        <div className={style.align}>                     
+                            <div className={style.container}> 
+                            <img src='https://media.discordapp.net/attachments/883817635081506886/943903972241055854/404.jpeg' style={{ width: '100%' }} />
+                        </div>
                         <button onClick={() => window.location.href = `/`} className='button' style={{ marginTop: 10 }}>
                             <HiHome style={{ height: 22, width: 22, marginTop: 1.8, marginRight: 5 }} />
                             <div>Go Home</div>
