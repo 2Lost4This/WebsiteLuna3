@@ -10,7 +10,7 @@ export default class Error500 extends React.Component {
                 </Head>
                 <div className={style.align}>
                     <div className={style.container}>
-                        <img src='https://media.discordapp.net/attachments/883817635081506886/943903972241055854/500.jpeg' style={{ width: '100%' }} />
+                        <img src='https://http.cat/500.jpeg' style={{ width: '100%' }} />
                     </div>
                 </div>
             </>
