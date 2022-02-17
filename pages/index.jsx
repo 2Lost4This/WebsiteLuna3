@@ -166,7 +166,7 @@ Homepage.getInitialProps = async () => {
             nickname: `Losti`,
             avatar: `https://cdn.discordapp.com/avatars/421991668556759042/95885955696dcf7c327f996ae99f92cd.png`,
             nickavatar: `https://cdn.discordapp.com/avatars/421991668556759042/95885955696dcf7c327f996ae99f92cd.png`,
-            banner: `https://cdn.discordapp.com/banners/421991668556759042/a_60bfad3b0ec279b6916ef3c566323a86.gif`,
+            banner: `https://cdn.discordapp.com/attachments/941436492344098826/943926507561177098/Discord_0jcNa6to2D.png`,
             status: {
                 state: {
                     text: `Unknown`,
