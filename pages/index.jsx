@@ -31,7 +31,7 @@ const cards = [{
     position: `Moderator`
 },{
     name: 'GamerRoom',
-    icon: 'https/cdn.discordapp.com/icons/712321672027308082/a_17a9387c305f9c5f70c4e573fc037911.gif?size=2048',
+    icon: 'https://cdn.discordapp.com/icons/712321672027308082/a_17a9387c305f9c5f70c4e573fc037911?size=128size=2048',
     description: 'German Community Server',
     url: 'https://discord.gg/AZCPJFXTFcB',
     position: `Head Support`
