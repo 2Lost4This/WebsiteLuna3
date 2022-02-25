@@ -29,6 +29,12 @@ const cards = [{
     description: 'Chill is a discord bot that allows you to watch youtube videos in a voice channel via the Discord Watch Together feature, with your friends!',
     url:'https://discord.gg/dkQ6RS67nw',
     position: `Moderator`
+},{
+    name: 'GamerRoom',
+    icon: 'https/cdn.discordapp.com/icons/712321672027308082/a_17a9387c305f9c5f70c4e573fc037911.gif?size=2048',
+    description: 'German Community Server',
+    url: 'https://discord.gg/AZCPJFXTFcB',
+    position: `Head Support`
 }];
 
 export default function Homepage({ user, error }) {
