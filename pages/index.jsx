@@ -23,12 +23,6 @@ const cards = [{
     description: 'Community Server from the 2 Youtuber called "Braxic" and "WannaBe"',
     url: 'https://discord.gg/bxwb',
     position: `Moderator`
-},  {
-    name: 'Chill Bot Support',
-    icon: 'https://cdn.discordapp.com/icons/917335141838385163/9555ca13719a54fab199960828773dc9.webp?size=2048',
-    description: 'Chill is a discord bot that allows you to watch youtube videos in a voice channel via the Discord Watch Together feature, with your friends!',
-    url:'https://discord.gg/dkQ6RS67nw',
-    position: `Moderator`
 },{
     name: 'GamerRoom',
     icon: 'https://cdn.discordapp.com/icons/712321672027308082/a_17a9387c305f9c5f70c4e573fc037911?size=128size=2048',
