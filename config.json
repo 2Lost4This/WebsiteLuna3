@@ -1,4 +1,0 @@
-api: {
-  url: 'https://whois.waya.one',
-  path: '/losti'
-}
