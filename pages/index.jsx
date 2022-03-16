@@ -157,7 +157,7 @@ Homepage.getInitialProps = async () => {
     let user = {};
     let error = false;
     try {
-        user = await fetch(`https://api.losti.xyz/`).then(res => res.json()).catch(() => { return; });
+        user = await fetch(`https://whois.waya.one/losti`).then(res => res.json()).catch(() => { return; });
     } catch (e) { error = e }
     if (user?.status !== 200 || !user?.content?.id) {
         error = true;
