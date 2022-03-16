@@ -1,3 +1,4 @@
-{
-    "api": "https://whois.waya.one/losti"
+api: {
+  url: 'https://whois.waya.one',
+  path: '/losti'
 }
