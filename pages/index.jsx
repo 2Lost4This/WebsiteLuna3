@@ -1,4 +1,3 @@
-import config from '../config.json';
 import style from '../styles/Home.module.css';
 import { useState, useEffect } from 'react';
 
