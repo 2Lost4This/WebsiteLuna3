@@ -49,7 +49,7 @@ export default function Homepage({ user, error }) {
                     </div>
                     <div className={style.me}>
                         <div className={style.profilepicture} style={{ backgroundColor: (user?.status?.state?.color || `#747F8D`) }}>
-                            <img src={user?.nickavatar} alt='profile picture' draggable={false} style={{ width: 138, borderRadius: 10 }} />
+                            <img src={user?.nickavatar || user?.avatar} alt='profile picture' draggable={false} style={{ width: 138, borderRadius: 10 }} />
                         </div>
                         <div style={{ marginLeft: 176, marginTop: (user?.status?.emote || user?.status?.text) ? 14 : 35 }} className={style.name}>
                             <text style={(user?.status?.emote || user?.status?.text) ? { fontSize: 44, color: '#fff' } : { fontSize: 48, position: 'relative', top: 4, color: '#fff' }}>{user?.nickname}</text>
@@ -163,8 +163,8 @@ Homepage.getInitialProps = async () => {
         user = { content: {
             username: `2Lost4Discоrd`,
             nickname: `Losti`,
-            avatar: `https://cdn.discordapp.com/avatars/421991668556759042/a_4319ffca52cc16d0c1bdb6bee663d016.gif`,
-            nickavatar: `https://cdn.discordapp.com/avatars/421991668556759042/a_4319ffca52cc16d0c1bdb6bee663d016.gif`,
+            avatar: `https://cdn.discordapp.com/avatars/421991668556759042/95885955696dcf7c327f996ae99f92cd.png`,
+            nickavatar: `https://cdn.discordapp.com/avatars/421991668556759042/95885955696dcf7c327f996ae99f92cd.png`,
             banner: `https://cdn.discordapp.com/attachments/941436492344098826/943927887046799410/Discord_iWeGYgcjit.png`,
             status: {
                 state: {
