@@ -21,12 +21,12 @@ export default function render({ Component, pageProps }) {
 
                 <meta name="twitter:title" content="2Lost4Discоrd" />
                 <meta name="twitter:description" content="I am 2Lost4Discord or for short, Losti" />
-                <meta name="twitter:image" content="https://cdn.discordapp.com/avatars/421991668556759042/95885955696dcf7c327f996ae99f92cd.png" />
+                <meta name="twitter:image" content="https://cdn.discordapp.com/icons/732576939520426044/820e7b48c2036a7c3ba32784d430f1a0.png" />
 
                 <meta property='og:title' content='2Lost4Discоrd' />
                 <meta property='og:description' content="I am 2Lost4Discord or for short, Losti" />
                 <meta property='og:type' content='website' />
-                <meta property='og:image' content='https://cdn.discordapp.com/avatars/421991668556759042/95885955696dcf7c327f996ae99f92cd.png' />
+                <meta property='og:image' content='https://cdn.discordapp.com/icons/732576939520426044/820e7b48c2036a7c3ba32784d430f1a0.png' />
 
                 <meta name='theme-color' content='#2ecc71' />
                 <title>2Lost4Discоrd</title>
