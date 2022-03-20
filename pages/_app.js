@@ -30,7 +30,7 @@ export default function render({ Component, pageProps }) {
 
                 <meta name='theme-color' content='#2ecc71' />
                 <title>2Lost4Discоrd</title>
-                <link rel='shortcut icon' type='image/x-icon' href='https://cdn.discordapp.com/avatars/421991668556759042/95885955696dcf7c327f996ae99f92cd.png' />
+                <link rel='shortcut icon' type='image/x-icon' href='https://cdn.discordapp.com/icons/732576939520426044/820e7b48c2036a7c3ba32784d430f1a0.png' />
             </Head>
             <body>
                 <Layout />
