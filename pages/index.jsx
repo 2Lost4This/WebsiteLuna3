@@ -6,13 +6,13 @@ import { HiOutlineNewspaper, HiOutlineLink, HiX, HiOutlineExclamation, HiOutline
 
 const cards = [{
     name: 'MY Server',
-    icon: 'https://cdn.discordapp.com/icons/732576939520426044/820e7b48c2036a7c3ba32784d430f1a0.webp?size=2048',
+    icon: 'https://cdn.discordapp.com/attachments/951696348388917268/955158941640306728/907041503480782858.webp',
     description: 'My own Server :D.',
     url: 'https://discord.gg/4Q87pfTWqC',
     position: `Owner`
 }, {
     name: 'Discord Networking',
-    icon: 'https://cdn.discordapp.com/icons/856270069612281876/fddb971d0e1541577e46a51a7a0e0178.webp?size=2048',
+    icon: 'https://cdn.discordapp.com/attachments/951696348388917268/955158941640306728/907041503480782858.webp',
     description: 'Server for moderators, developers, artists to help each other and exchange information',
     url: 'https://discord.gg/vWcEAX5G4B',
     position: `Moderator`
