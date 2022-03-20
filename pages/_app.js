@@ -17,14 +17,14 @@ export default function render({ Component, pageProps }) {
                 <meta httpEquiv='Content-Type' content='text/html; charset=utf-8' />
 
                 <meta property='title' content='2Lost4Discоrd' />
-                <meta property='description' content="I am 2Lost4Discord or for short, Losti" />
+                <meta property='description' content="Hello, I am 2Lost4Discord or Losti for short. This is my own website where you can find more about me" />
 
                 <meta name="twitter:title" content="2Lost4Discоrd" />
-                <meta name="twitter:description" content="I am 2Lost4Discord or for short, Losti" />
+                <meta name="twitter:description" content="Hello, I am 2Lost4Discord or Losti for short. This is my own website where you can find more about me" />
                 <meta name="twitter:image" content="https://cdn.discordapp.com/icons/732576939520426044/820e7b48c2036a7c3ba32784d430f1a0.png" />
 
                 <meta property='og:title' content='2Lost4Discоrd' />
-                <meta property='og:description' content="I am 2Lost4Discord or for short, Losti" />
+                <meta property='og:description' content="Hello, I am 2Lost4Discord or Losti for short. This is my own website where you can find more about me" />
                 <meta property='og:type' content='website' />
                 <meta property='og:image' content='https://cdn.discordapp.com/icons/732576939520426044/820e7b48c2036a7c3ba32784d430f1a0.png' />
 
