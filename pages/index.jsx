@@ -28,7 +28,14 @@ const cards = [{
     description: 'German Community Server',
     url: 'https://discord.gg/AZCPJFXTFcB',
     position: `Head Support`
-}];
+},{
+    name: 'AntiScam',
+    icon: 'https://cdn.discordapp.com/attachments/955930340571095040/955937069925040128/unknown.png',
+    description: 'A Simple way to protect your Server against Scam',
+    url: 'https://invite.losti.xyz',
+    position: `Founder, Developer`,
+    bot: 1
+    }];
 
 export default function Homepage({ user, error }) {
 
