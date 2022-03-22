@@ -12,7 +12,7 @@ const cards = [{
     position: `Owner`
 }, {
     name: 'Discord Networking',
-    icon: 'https://cdn.discordapp.com/attachments/951696348388917268/955158941640306728/907041503480782858.webp',
+    icon: 'src="https://cdn.discordapp.com/icons/856270069612281876/fddb971d0e1541577e46a51a7a0e0178.webp',
     description: 'Server for moderators, developers, artists to help each other and exchange information',
     url: 'https://discord.gg/vWcEAX5G4B',
     position: `Moderator`
