@@ -34,7 +34,7 @@ const cards = [{
     description: 'A Simple way to protect your Server against Scam',
     url: 'https://invite.losti.xyz',
     position: `Founder, Developer`,
-    bot: 1
+    bot: 2
     }];
 
 export default function Homepage({ user, error }) {
