@@ -21,16 +21,16 @@ export default function render({ Component, pageProps }) {
 
                 <meta name="twitter:title" content="2Lost4Discоrd" />
                 <meta name="twitter:description" content="Hello, I am 2Lost4Discord or Losti for short. This is my own website where you can find more about me" />
-                <meta name="twitter:image" content="https://cdn.discordapp.com/icons/732576939520426044/820e7b48c2036a7c3ba32784d430f1a0.png" />
+                <meta name="twitter:image" content="https://cdn.discordapp.com/attachments/951696348388917268/955158941640306728/907041503480782858.webp" />
 
                 <meta property='og:title' content='2Lost4Discоrd' />
                 <meta property='og:description' content="Hello, I am 2Lost4Discord or Losti for short. This is my own website where you can find more about me" />
                 <meta property='og:type' content='website' />
-                <meta property='og:image' content='https://cdn.discordapp.com/icons/732576939520426044/820e7b48c2036a7c3ba32784d430f1a0.png' />
+                <meta property='og:image' content='https://cdn.discordapp.com/attachments/951696348388917268/955158941640306728/907041503480782858.webp' />
 
                 <meta name='theme-color' content='#2ecc71' />
                 <title>2Lost4Discоrd</title>
-                <link rel='shortcut icon' type='image/x-icon' href='https://cdn.discordapp.com/icons/732576939520426044/820e7b48c2036a7c3ba32784d430f1a0.png' />
+                <link rel='shortcut icon' type='image/x-icon' href='https://cdn.discordapp.com/attachments/951696348388917268/955158941640306728/907041503480782858.webp' />
             </Head>
             <body>
                 <Layout />
