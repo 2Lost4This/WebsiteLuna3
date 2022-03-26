@@ -84,7 +84,7 @@ export default function Homepage({ user, error }) {
                                 Learn more about my <strong>story and my projects</strong> <button className='link' style={{ fontSize: '1.1rem' }} onClick={() => window.open('https://discord.gg/4Q87pfTWqC')}>in my server</button> 
                             </div>
                             <br />
-                            <strong style={{ fontSize: 27 }}>🪄 Things i like</strong><br />
+                            <strong style={{ fontSize: 27 }}> Things i like</strong><br />
                             <div style={{ marginTop: 8, marginLeft: 12 }}>
                                 •&nbsp; Skateboard<br />
                                 •&nbsp; Driving my MTB<br />
@@ -92,10 +92,10 @@ export default function Homepage({ user, error }) {
                                 •&nbsp; Moderating<br />
                                 •&nbsp; Developing
                             </div>
-                            <strong style={{ fontSize: 27 }}>🍧 Contact</strong><br />
+                            <strong style={{ fontSize: 27 }}> Contact</strong><br />
                             <div style={{ marginTop: 8, marginLeft: 12 }}>
-                                You want to collaborate with me or just talk? <br />
-                                Join my <button className='link' style={{ fontSize: '1.1rem' }} onClick={() => window.open('https://discord.gg/VM77HTNXrt')}>Discord server</button> or contact me over E-Mail: help@losti.xyz
+                                You want to contact me or just talk? <br />
+                                Join my <button className='link' style={{ fontSize: '1.1rem' }} onClick={() => window.open('https://discord.gg/VM77HTNXrt')}>Discord server</button> or contact me over <strong>E-Mail: help@losti.xyz</strong>
                             </div>
                         </div>
                         <div className={user.activities.length > 0 ? style.section : ''}>
