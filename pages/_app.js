@@ -36,7 +36,7 @@ export default function render({ Component, pageProps }) {
                 <Layout />
                 <div className='set-luna'>
                     <Link href='https://waya.one/go/luna'>
-                        <a>Credit&nbsp;<AiFillHeart style={{ position: 'relative', top: 2 }} />&nbsp;to&nbsp;Luna</a>
+                        <a>Made&nbsp;with&nbsp;<AiFillHeart style={{ position: 'relative', top: 2 }} />&nbsp;by&nbsp;Luna</a>
                     </Link>
                 </div>
                 <Component {...pageProps} />
