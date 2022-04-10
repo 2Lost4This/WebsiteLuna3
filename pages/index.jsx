@@ -23,16 +23,10 @@ const cards = [{
     url: 'https://discord.gg/bxwb',
     position: `Moderator`
 },{
-    name: 'GamerRoom',
-    icon: 'https://cdn.discordapp.com/icons/712321672027308082/a_17a9387c305f9c5f70c4e573fc037911?size=128size=2048',
-    description: 'German Community Server',
-    url: 'https://discord.gg/AZCPJFXTFcB',
-    position: `Head Support`
-},{
     name: 'AntiScam',
     icon: 'https://cdn.discordapp.com/attachments/955930340571095040/955937069925040128/unknown.png',
-    description: 'A Simple way to protect your Server against Scam',
-    url: 'https://invite.losti.xyz',
+    description: 'Bot if offline',
+    url: 'https://discord.gg/4Q87pfTWqC',
     position: `Founder, Developer`,
     bot: 2
     }];
