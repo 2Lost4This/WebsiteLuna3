@@ -14,7 +14,7 @@ const cards = [{
     name: 'Discord Networking',
     icon: 'https://media.discordapp.net/attachments/799260287517327421/955931184708349992/dn.png',
     description: 'Server for moderators, developers, artists to help each other and exchange information',
-    url: 'https://discord.gg/vWcEAX5G4B',
+    url: 'https://discord.gg/arp9nM38K6',
     position: `Moderator`
 }, {
     name: 'Braxic/ Wannabe',
