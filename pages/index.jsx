@@ -50,7 +50,7 @@ export default function Homepage({ user, error }) {
                     </div>
                     <div className={style.me}>
                         <div className={style.profilepicture} style={{ backgroundColor: (user?.status?.state?.color || `#747F8D`) }}>
-                            <img src={user?.nickavatar || user?.avatar} alt='profile picture' draggable={false} style={{ width: 138, borderRadius: 10 }} />
+                            <img src={width > 600 ? (user?.nickavatar || user?.avatar) : 'Losti'} alt='profile picture' draggable={false} style={{ width: 138, borderRadius: 10 }} />
                         </div>
                         <div style={{ marginLeft: 176, marginTop: (user?.status?.emote || user?.status?.text) ? 14 : 35 }} className={style.name}>
                             <text style={(user?.status?.emote || user?.status?.text) ? { fontSize: 44, color: '#fff' } : { fontSize: 48, position: 'relative', top: 4, color: '#fff' }}>{user?.nickname}</text>
