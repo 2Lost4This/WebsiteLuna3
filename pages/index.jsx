@@ -26,7 +26,7 @@ const cards = [{
     name: 'AntiScam',
     icon: 'https://cdn.discordapp.com/attachments/955930340571095040/955937069925040128/unknown.png',
     description: 'Bot to keep your server safe against scam links',
-    url: 'https://discord.gg/4Q87pfTWqC',
+    url: 'https://invite.losti.xyz',
     position: `Founder, Developer`,
     bot: 2
     }];
