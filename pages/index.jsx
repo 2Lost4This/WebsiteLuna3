@@ -5,8 +5,8 @@ import { BiWindowAlt, BiCodeAlt } from 'react-icons/bi';
 import { HiOutlineNewspaper, HiOutlineLink, HiX, HiOutlineExclamation, HiOutlineFolder, HiOutlineMenuAlt2 } from 'react-icons/hi';
 
 const cards = [{
-    name: 'Lostis Attic',
-    icon: 'https://cdn.discordapp.com/attachments/951696348388917268/955158941640306728/907041503480782858.webp',
+    name: 'Lostis Dreamworld',
+    icon: 'https://cdn.discordapp.com/attachments/955930340571095040/971850209971826819/Screenshot_2022-05-04_185556.png',
     description: 'That is my own community, feel free to join it',
     url: 'https://discord.gg/4Q87pfTWqC',
     position: `Owner`
