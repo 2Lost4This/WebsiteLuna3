@@ -16,12 +16,6 @@ const cards = [{
     description: 'Server for moderators, developers, artists to help each other and exchange information',
     url: 'https://discord.gg/arp9nM38K6',
     position: `Moderator`
-}, {
-    name: 'Braxic/ Wannabe',
-    icon: 'https://cdn.discordapp.com/icons/443905850634010625/a_a0aefb5be3659345ea422315dd570d1b.webp?size=2048',
-    description: 'Community Server from the 2 Youtuber called "Braxic" and "WannaBe"',
-    url: 'https://discord.gg/bxwb',
-    position: `Moderator`
 },{
     name: 'AntiScam',
     icon: 'https://cdn.discordapp.com/attachments/955930340571095040/955937069925040128/unknown.png',
