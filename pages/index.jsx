@@ -8,7 +8,7 @@ const cards = [{
     name: 'Lostis Dreamworld',
     icon: 'https://cdn.discordapp.com/attachments/955930340571095040/971850209971826819/Screenshot_2022-05-04_185556.png',
     description: 'That is my own community, feel free to join it',
-    url: 'https://discord.gg/4Q87pfTWqC',
+    url: 'https://discord.gg/4RJuppzbUG',
     position: `Owner`
 }, {
     name: 'Discord Networking',
